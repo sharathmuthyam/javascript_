@@ -1,0 +1,14 @@
+Element	Description	Example
+<h1> - <h6>	Headings (h1 is largest, h6 is smallest)	<h1>Title</h1>
+<p>	Paragraph	<p>Hello World!</p>
+<a>	Hyperlink	<a href="https://google.com">Click Me</a>
+<img>	Image	<img src="image.jpg" alt="An image">
+<ul>, <ol>, <li>	Lists (unordered, ordered)	<ul><li>Item 1</li></ul>
+<table>	Table	<table><tr><td>Data</td></tr></table>
+<form>	User Input Form	<form><input type="text"></form>
+<button>	Button	<button>Click Me</button>
+<video>	Embed Video	<video src="video.mp4" controls></video>
+<audio>	Embed Audio	<audio src="audio.mp3" controls></audio>
+<iframe>	Embed another webpage	<iframe src="https://example.com"></iframe>
+<div>	Generic container	<div>Content</div>
+<span>	Inline container	<span>Text</span>

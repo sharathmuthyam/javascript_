@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements Demo</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table, th, td { border: 1px solid black; border-collapse: collapse; padding: 10px; }
+        ul, ol { margin: 10px 0; }
+        input, textarea, select, button { margin: 5px; padding: 5px; }
+        .container { background-color: #940b0b; padding: 10px; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+
+    <h1>HTML Elements Overview</h1>
+
+    <div class="container">
+        <h2>Headings & Paragraphs</h2>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <p>This is a paragraph of text. HTML is the structure of a webpage.</p>
+    </div>
+
+    <div class="container">
+        <h2>Links & Images</h2>
+        <a href="https://www.google.com" target="_blank">Visit Google</a>
+        <p>Here is an image:</p>
+        <img src="https://via.placeholder.com/150" alt="Sample Image">
+    </div>
+
+    <div class="container">
+        <h2>Lists (Ordered & Unordered)</h2>
+        <h3>Unordered List:</h3>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <h3>Ordered List:</h3>
+        <ol>
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ol>
+    </div>
+
+    <div class="container">
+        <h2>Tables</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>22</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container">
+        <h2>Forms & Inputs</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email"><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Your message"></textarea><br>
+
+            <label for="gender">Gender:</label>
+            <select id="gender">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <h2>Buttons</h2>
+        <button onclick="alert('Hello!')">Click Me</button>
+    </div>
+
+    <div class="container">
+        <h2>Media (Video, Audio, Iframe)</h2>
+        <h3>Video:</h3>
+        <video width="300" controls>
+            <source src="sample.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+
+        <h3>Audio:</h3>
+        <audio controls>
+            <source src="sample.mp3" type="audio/mp3">
+            Your browser does not support audio.
+        </audio>
+
+        <h3>Iframe:</h3>
+        <iframe src="https://www.example.com" width="300" height="200"></iframe>
+    </div>
+
+    <div class="container">
+        <h2>Div vs Span</h2>
+        <div style="background-color: lightblue; padding: 10px;">This is a div block.</div>
+        <p>This is a <span style="color: red;">span</span> inside a paragraph.</p>
+    </div>
+
+</body>
+</html>
