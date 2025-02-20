@@ -1,0 +1,25 @@
+<!Doctype html> 
+<html>
+    <head>
+        <title>Loops</title>
+    </head>
+    <body>
+        
+        <h1>Loops</h1>
+        <script>
+            //for loop
+            //we can label the loop and use it for douing the break and continue
+            outer: for (let i = 0; i < 3; i++) {
+               inner: while(prompt("enter your name")!="sharath"){
+                   alert("welcome");
+                   alert("i am breaking");break inner;
+                   
+               }
+               if (prompt("enter your name")=="sharath"){
+                   alert("you are not welcome");
+                   break outer;
+               }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Operators</title>
+    </head>
+    <body>
+        <h1>Operators</h1>
+        <script>
+            //uniary operatorshas only oine operand
+            //binary operator has two operands
+            //ternary operator has three operands
+            //arithmetic operators
+            let a=10;
+            let b=20;
+            let c=a+b;
+            let d=a-b;
+            let e=a*b;
+            let f=a/b;
+            let g=a%b;
+            let h=a**b;
+            document.write("Addition is "+c+"<br>");
+            document.write("Subtraction is "+d+"<br>");
+            document.write("Multiplication is "+e+"<br>");
+            document.write("Division is "+f+"<br>");
+            document.write("Modulus is "+g+"<br>");
+            document.write("Exponentiation is "+h+"<br>");
+            //conversion using operators
+            let s="1";
+            let t="2";
+            let u=s+t;
+            document.write("Addition of strings is "+u+"<br>");
+            //adding string gihves priorit to string 
+            //while subtraction gives priority to number
+            let v=s-t;
+            document.write("Subtraction of strings is "+v+"<br>");
+            //but addition with sinlge quotes gives conversion
+            let w='1';
+            let x='2';
+            alert(typeof (+w));
+            alert(typeof (+true));
+            /* operator in js returns value thats true for "="*/
+            let p=10
+            let b1=2
+            let c1=3+(p=b)
+            document.write("Value of p is "+p+"<br>");
+            let kn=2
+            kn *= 3 + 5; // right part evaluated first, same as n *= 8
+            document.write("Value of kn is "+kn+"<br>");
+            //increment and decrement operators
+            
+            let j=10;
+            let k=j++;
+            let pp=++j;
+            document.write("Pre increment is "+pp+"<br>");
+            document.write("Post increment is "+k+"<br>");
+            let l=j--;
+            document.write("Post decrement is "+l+"<br>");
+
+
+                   </script>
+    </body>
+</html>

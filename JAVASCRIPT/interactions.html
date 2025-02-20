@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Interactions</title>
+    </head>
+    <body onclick="sharath()" bgcolor="lightblue">
+        <h1>Interactions</h1>
+        <script >
+            //PROMPT ALLOWS USER TO INTREACT WITH TWO OPTIONS OK AND CANCEL IT TAKWS INPUT
+            //CONFIRM ALLOWS USER TO INTREACT WITH TWO OPTIONS OK AND CANCEL BUT CANNOT TAKE INPUT
+            //ALERT ALLOWS USER TO INTREACT WITH ONE OPTION OK
+          var name = prompt("Enter your name",["SHARATH"]);
+            alert("Hello " + name);
+            function sharath(){
+            let res=confirm(`are you ${name} ?`);
+            if (res==true){
+                alert("Welcome to the world of JS");
+            }
+            else{
+                alert("You are not welcome");
+            }
+        }
+        </script>
+        
+    </body>
+</html>

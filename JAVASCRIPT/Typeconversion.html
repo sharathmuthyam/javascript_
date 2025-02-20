@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Type Conversion</title>
+    </head>
+    <body>
+        <h1>Type Conversion</h1>
+        <input type="text" id="conversion">
+        <button onclick="converttonumber()">Convert to number</button>
+        <button onclick="converttostring()">Convert to string</button>
+        <button onclick="converttoboolean()">Convert to bool</button>
+
+        
+            <script>
+                function converttonumber(){
+                    let a=document.getElementById("conversion");
+                    let b=Number(a.value);
+                    alert(b);
+                }
+                function converttostring(){
+                    let a=document.getElementById("conversion");
+                    let b=String(a.value);
+                    alert(b);
+                }
+                function converttoboolean(){
+                    let a=document.getElementById("conversion");
+                    let b=Boolean(a.value);
+                    alert(b);
+                }
+            </script>
+        
+        
+    </body>
+</html>
