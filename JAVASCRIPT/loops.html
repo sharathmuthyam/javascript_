@@ -4,12 +4,12 @@
         <title>Loops</title>
     </head>
     <body>
-        
+
         <h1>Loops</h1>
         <script>
             //for loop
             //we can label the loop and use it for douing the break and continue
-            outer: for (let i = 0; i < 3; i++) {
+            /*outer: for (let i = 0; i < 3; i++) {
                inner: while(prompt("enter your name")!="sharath"){
                    alert("welcome");
                    alert("i am breaking");break inner;
@@ -19,7 +19,26 @@
                    alert("you are not welcome");
                    break outer;
                }
+            }*/
+            //sswitch case is used to check the multiple conditions
+            let age=prompt("enter your age");
+            age=+age;
+            switch (true) {
+                case (age<17):
+                    alert("you are not eligible 1");
+                    break;
+                case (age>=18 && age<=60):
+                
+                    alert("you are eligible 2");
+                    break;
+                case (age>60):
+                    alert("you are not eligible 3");
+                    break;
+                default:
+                    alert("you are not eligible 0");
+                    break;
             }
+
         </script>
     </body>
 </html>
