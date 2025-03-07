@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Functions</title>
+    </head>
+    <body>
+        <h1>Functions</h1>
+
+        <script>
+            //function declaration
+            // funvtions are basic blocks of code which can be used mutliple times by recalling them 
+
+            //˝lobal variables are used if we call inside the functions and if we ue the variable that are declared outside of the function then we use it inside function and tehn we call the function and then the value is changhed
+           /* let a = 10;  // Global variable
+
+            function greet() {
+                a = a + 10;  // Modifies the global 'a'
+                alert("inside: " + String(a));  // Shows 20
+            }
+
+            greet();
+
+            alert(`outside the function: ${a}`);  // Should also show 20, */ 
+
+            // if u declare varaibelk with sa,me global name or send the outside variable to functimn as parameter the valeu that global variable hold dosent changed 
+            let b=10;
+            let c=10;
+           function greet(b){
+                let c=10;
+                c+=10;
+                alert("inside FISTION 2"+String(c));
+                b+=10;
+                alert("inside FUUN 2"+String(b));
+            }
+            greet(b);
+            alert("outside:"+String(b));
+            alert("outside"+String(c));
+        
+      
+        </script>
+    </body>
+</html>

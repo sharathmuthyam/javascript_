@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Functions</title>
+    </head>
+    <body>
+        <h1>Functions</h1>
+
+        <script>
+           let a=function(b){
+            return b*10;
+           };
+              alert(a(10));//this is the way to call the function 
+              //expressiom function is the function that is assigned to a variable and then we call the variable to call the function
+              //it is created insode expression
+              // strict mode of using fucntion inside the function without able to reclal it 
+              function my(a,b,c){
+                if (prompt(a)== "aha") 
+                 b();
+                
+                else c();
+              }
+           my("enter aha",function(){alert("you entered aha");},function(){alert("you did not enter aha");});
+       
+        </script>
+    </body>
+</html>

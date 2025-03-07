@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Logical Operators</title>
+    </head>
+    <body>
+        <h1>Logical Operators</h1>
+
+        <script>
+        // or "||" operator returns true if any one of the operands is true
+        let a=10;
+        let b=20;
+        (0 || a)?alert(a):alert(0)
+        (0 && b)?alert(0):alert(b)// and "&&" operator returns true if both the operands are true
+// not "!" operator returns true if the operand is false
+        let c=10;
+        let d=20;
+        (!c)?alert("c is false"):alert("c is true")
+        //!! is used to convert the value to boolean
+        let e=10;
+        let f=20;
+        (!!e)?alert("e is true",typeof e):alert("e is false", typeof e)
+        //The alert returns undefined, so OR goes on to the second operand searching for a truthy value.
+        alert(alert(1))// return 1 and undefined
+        </script>
+    </body>
